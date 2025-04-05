@@ -1,11 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 
 import applicationSlice from "./slices/applicationSlice";
-import BannerSlice from "./slices/bannerSlice";
+import bannerSlice from "./slices/bannerSlice";
 
 export const store = configureStore({
   reducer: {
-    banners: BannerSlice,
+    banners: bannerSlice,
     applications: applicationSlice,
   },
 });
