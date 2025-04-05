@@ -10,7 +10,7 @@ import {
   addBannerThunk,
   deleteBannerThunk,
   fetchBanners,
-} from "../store/slices/bannerSlice";
+} from "../store/slices/bannersSlice";
 
 const BannerPage = () => {
   const dispatch = useDispatch();

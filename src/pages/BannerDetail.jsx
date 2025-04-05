@@ -11,7 +11,7 @@ import Breadcrumbss from "../components/UI/BreadCrumbs";
 import {
   deleteApplicationThunk,
   fetchApplication,
-} from "../store/slices/applicationSlice";
+} from "../store/slices/applicationsSlice";
 
 const BannerDetail = () => {
   const { id } = useParams();

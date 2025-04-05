@@ -10,7 +10,7 @@ import {
   addApplicationThunk,
   deleteApplicationThunk,
   fetchApplication,
-} from "../store/slices/applicationSlice";
+} from "../store/slices/applicationsSlice";
 
 const ApplicationPage = () => {
   const dispatch = useDispatch();
