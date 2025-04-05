@@ -17,7 +17,7 @@ const ApplicationPage = () => {
   const { applications, isLoading, error } = useSelector(
     (state) => state.applications
   );
-  const columns = ["№", "name", "phone"];
+  const columns = ["name", "phone"];
 
   const [open, setOpen] = useState(false);
   const [openModal, setOpenModal] = useState(false);
