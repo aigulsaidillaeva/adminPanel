@@ -23,7 +23,7 @@ const BannerDetail = () => {
   const [checkedItems, setCheckedItems] = useState([]);
 
   const selectedBanner = banners.find((banner) => banner.id === parseInt(id));
-  const title = selectedBanner.project;
+  // const title = selectedBanner.project;
 
   useEffect(() => {
     dispatch(fetchApplication(id));
@@ -42,7 +42,7 @@ const BannerDetail = () => {
 
   return (
     <Box>
-      <Typography variant="h4">Набор на курс {title}</Typography>
+      <Typography variant="h4">Набор на курс {}</Typography>
       <Breadcrumbss />
 
       <Box>
