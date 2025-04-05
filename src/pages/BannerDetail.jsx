@@ -6,11 +6,12 @@ import { MyModal } from "../components/UI/MyModal";
 import { useDispatch, useSelector } from "react-redux";
 
 import { useParams } from "react-router";
+
+import Breadcrumbss from "../components/UI/BreadCrumbs";
 import {
   deleteApplicationThunk,
   fetchApplication,
 } from "../store/slices/applicationSlice";
-import Breadcrumbss from "../components/UI/BreadCrumbs";
 
 const BannerDetail = () => {
   const { id } = useParams();
